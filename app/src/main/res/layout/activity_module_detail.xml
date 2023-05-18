@@ -7,15 +7,16 @@
 
 
     <TextView
-        android:id="@+id/textViewModule1"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="C346 Android Programming" />
+        android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/textViewModule2"
+    <Button
+        android:id="@+id/buttonBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="C203 Web Application Development" />
+        android:layout_marginTop="10dp"
+        android:text="@string/back" />
+
 
 </LinearLayout>
